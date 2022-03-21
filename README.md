@@ -2,6 +2,6 @@
 
 ### Legge til jupyter i path
 ```bash
-echo "$HOME/.local/bin" > ~/.zshrc
+echo "export PATH=\"\$PATH:$HOME/.local/bin/\"" >> ~/.zshrc
 source ~/.zshrc
 ```
