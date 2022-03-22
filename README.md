@@ -23,8 +23,12 @@ source ~/.zshrc
 
 # Installer og kjør Jupyterlab
 
+#### Installer
 ```bash
-pip install jupyterlab (Hvis ikke allerede installert i forrige steg)
+pip3 install Flask jupyterlab requests
+```
+#### Kjør
+```bash
 jupyter serverextension enable --py jupyterlab --sys-prefix
 jupyter lab
 ```
